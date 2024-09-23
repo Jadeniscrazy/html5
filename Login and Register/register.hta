@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Register </title>
+        <link rel="stylesheet" href="index.css">
+        <HTA:Application
+            Applicationname = "Reborn"
+            Icon ="logo.ico"
+            Version = "1.001"
+            MaximizeButton="no"
+            MinimizeButton="yes"
+            Navigable="yes"
+        />
+    </head>
+    <body SCROLL = "no">
+        <h1>
+            Register
+        </h1>
+        <h3>
+            Username
+        </h3>
+        <form>
+            <input type="text" id="Username">
+        </from>
+        <h3>
+            Password
+        </h3>
+        <form>
+            <input type="password" id="Password">
+        </from>
+        <br>
+        <br>
+        <from>
+        <input type="reset" value="Clear">
+        <input type="button" value="Register" id="submit" onclick="validate()"/>
+        </form>
+        <h5>
+            Already Have An Account?
+        </h5>
+        <h5>
+        <a href = "login.hta"> Login </a>
+        </h5>
+    </body>
+</html>
